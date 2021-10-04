@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title></title>
+    <style>
+      .font_style
+      {
+        line-height : 50px;
+        text-align : center;
+        font-size : large;
+        color : white;
+      }
+      .box{
+        width : 50px; height : 50px;
+        background-color :red;
+        margin : 5px; padding : 5px;
+        float : left;
+      }
+      .box:nth-child(4):hover{
+        background-color : green;
+                position : relative;
+        left: 20px; top :20px;
+      }
+      .box:nth-child(7):hover{
+        background-color : green;
+                position : relative;
+        right: 20px; bottom :20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>div 배치</h1>
+    <hr>
+    <div class="box font_style">A</div>
+    <div class="box font_style">B</div>
+    <div class="box font_style">C</div>
+    <div class="box font_style">D</div>
+    <div class="box font_style">E</div>
+    <div class="box font_style">F</div>
+  </body>
+</html>
